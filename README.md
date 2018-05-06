@@ -14,7 +14,7 @@ and keep only the ones that you want.                   *else*
 Multi-line constructs are supported,                    *for* colon in ['":"']:
 through the use of colon.
 Any kind of nested processing is word3.                     *for* word3 in ['allowed']
-Python-like identation can be used inside a block.          *if* True
+Python-like indentation can be used inside a block.         *if* True
 This helps debugging.                                   *endfor*
 '''
 
@@ -34,6 +34,6 @@ and keep only the ones that you want.
 Multi-line constructs are supported,
 through the use of ":".
 Any kind of nested processing is allowed.
-Python-like identation can be used inside a block.
+Python-like indentation can be used inside a block.
 This helps debugging.
 ```
