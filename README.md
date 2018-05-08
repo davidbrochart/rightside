@@ -1,4 +1,4 @@
-A tiny template engine that doesn't invite itself inside your code, but discretly shows on the right side.
+A tiny template engine that doesn't invite itself inside your code, but discreetly shows on the right side.
 
 ```python
 import rightside
