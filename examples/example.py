@@ -4,18 +4,16 @@ sys.path.append('../rightside')
 import rightside
 
 text = '''\
-This is a simple test.
-It's just to show what you can do with rightside.
-You can repeat things.                                  *for* _ in range(3)
-You can word1 word2.                                    *for* word1, word2 in [('replace', 'things')]
+This is just to show what you can do with rightside.
+
 You can filter lines conditionally,
 remove unwanted ones,                                   *if* a == 3
-and keep only the ones that you want.                   *else*
-Multi-line constructs are supported,                    *for* colon in ['":"']:
-through the use of colon.
-Any kind of nested processing is word3.                     *for* word3 in ['allowed']
-Python-like identation can be used inside a block.          *if* True
-This helps debugging.                                   *endfor*
+and keep only the ones that you want.                   *elif* a + 1 == 3
+
+You can word1 word2.                                    *for* word1, word2 in [('replace', 'things'), ('repeat', 'them')]
+                                                        *for* _ in range(3):
+You can repeat/replace contitionally (_).                   *if* _ == 1
+                                                        *endfor*
 '''
 
 rightside.a = 2
